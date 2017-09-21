@@ -17,7 +17,7 @@ mac 安装nginx
 mac 安装java
 1. 下载并安装jdk  jdk1.8.0_144.jdk
 2. 自己安装的jdk的目录一般在 /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
-3. 配置环境变量 (如果mac安装了zsh，需要在.zshrc添加配置，否则默认是.bashrc和.bash_profile)
+3. 配置环境变量 (如果mac安装了zsh，需要在/etc/zshrc添加配置，否则默认是/etc/bashrc 或者 .bash_profile)
     JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home;
     CLASSPATH=.:$JAVA_HOME/lib;
     export JAVA_HOME;
